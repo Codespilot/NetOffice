@@ -6891,6 +6891,94 @@
             </summary>
             <param name="entityName">name of missing entity</param>
         </member>
+        <member name="T:NetOffice.Extensions.Calling.CallExtensions">
+            <summary>
+            ICOMObject Call Extensions
+            </summary>
+        </member>
+        <member name="M:NetOffice.Extensions.Calling.CallExtensions.Method(NetOffice.ICOMObject,System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            Invoke ICOMObject method by name.
+            </summary>
+            <remarks>Should be called when dealing with optional arguments results in ugly code because this method can handle so-called named arguments</remarks>
+            <exception cref="T:NetOffice.Exceptions.NetOfficeCOMException">Unable to complete the call</exception>
+            <param name="comObject">target ICOMObject instance</param>
+            <param name="name">name of the method</param>
+            <param name="arg1">optional argument 1</param>
+            <param name="arg2">optional argument 2</param>
+            <param name="arg3">optional argument 3</param>
+            <param name="arg4">optional argument 4</param>
+            <param name="arg5">optional argument 5</param>
+            <param name="arg6">optional argument 6</param>
+            <param name="arg7">optional argument 7</param>
+            <param name="arg8">optional argument 8</param>
+            <param name="arg9">optional argument 9</param>
+            <param name="arg10">optional argument 10</param>
+            <param name="arg11">optional argument 11</param>
+            <param name="arg12">optional argument 12</param>
+            <param name="arg13">optional argument 13</param>
+            <param name="arg14">optional argument 14</param>
+            <param name="arg15">optional argument 15</param>
+            <param name="arg16">optional argument 16</param>
+            <param name="arg17">optional argument 17</param>
+            <param name="arg18">optional argument 18</param>
+            <param name="arg19">optional argument 19</param>
+            <param name="arg20">optional argument 20</param>
+            <param name="arg21">optional argument 21</param>
+            <param name="arg22">optional argument 22</param>
+            <param name="arg23">optional argument 23</param>
+            <param name="arg24">optional argument 24</param>
+            <param name="arg25">optional argument 25</param>
+            <param name="arg26">optional argument 26</param>
+            <param name="arg27">optional argument 27</param>
+            <param name="arg28">optional argument 28</param>
+            <param name="arg29">optional argument 29</param>
+            <param name="arg30">optional argument 30</param>
+            <param name="arg31">optional argument 31</param>
+            <param name="arg32">optional argument 32</param>
+        </member>
+        <member name="M:NetOffice.Extensions.Calling.CallExtensions.MethodGet``1(NetOffice.ICOMObject,System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            Invoke ICOMObject method by name.
+            </summary>
+            <remarks>Should be called when dealing with optional arguments results in ugly code because this method can handle so-called named arguments</remarks>
+            <exception cref="T:NetOffice.Exceptions.NetOfficeCOMException">Unable to complete the call</exception>
+            <param name="comObject">target ICOMObject instance</param>
+            <param name="name">name of the method</param>
+            <param name="arg1">optional argument 1</param>
+            <param name="arg2">optional argument 2</param>
+            <param name="arg3">optional argument 3</param>
+            <param name="arg4">optional argument 4</param>
+            <param name="arg5">optional argument 5</param>
+            <param name="arg6">optional argument 6</param>
+            <param name="arg7">optional argument 7</param>
+            <param name="arg8">optional argument 8</param>
+            <param name="arg9">optional argument 9</param>
+            <param name="arg10">optional argument 10</param>
+            <param name="arg11">optional argument 11</param>
+            <param name="arg12">optional argument 12</param>
+            <param name="arg13">optional argument 13</param>
+            <param name="arg14">optional argument 14</param>
+            <param name="arg15">optional argument 15</param>
+            <param name="arg16">optional argument 16</param>
+            <param name="arg17">optional argument 17</param>
+            <param name="arg18">optional argument 18</param>
+            <param name="arg19">optional argument 19</param>
+            <param name="arg20">optional argument 20</param>
+            <param name="arg21">optional argument 21</param>
+            <param name="arg22">optional argument 22</param>
+            <param name="arg23">optional argument 23</param>
+            <param name="arg24">optional argument 24</param>
+            <param name="arg25">optional argument 25</param>
+            <param name="arg26">optional argument 26</param>
+            <param name="arg27">optional argument 27</param>
+            <param name="arg28">optional argument 28</param>
+            <param name="arg29">optional argument 29</param>
+            <param name="arg30">optional argument 30</param>
+            <param name="arg31">optional argument 31</param>
+            <param name="arg32">optional argument 32</param>
+            <returns>result of T</returns>
+        </member>
         <member name="T:NetOffice.Extensions.Conversion.ConversionExtensions">
             <summary>
             ICOMObject Conversion Extensions
@@ -6942,7 +7030,7 @@
         <member name="T:NetOffice.Extensions.EnumerableExtensions">
             <summary>
             Provides a set of static (Shared in Visual Basic) methods for querying objects
-            that implement System.Collections.Generic.IEnumerable`1.
+            that implement NetOffice.CollectionsGeneric.IEnumerableProvider`1.
             </summary>
         </member>
         <member name="M:NetOffice.Extensions.EnumerableExtensions.First``1(NetOffice.CollectionsGeneric.IEnumerableProvider{``0},System.Boolean)">
