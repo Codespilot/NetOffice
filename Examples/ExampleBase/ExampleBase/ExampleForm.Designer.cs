@@ -53,6 +53,7 @@
             this.NameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DescriptionColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FormToolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.LinkPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LoveCodeplexPictureBox)).BeginInit();
@@ -107,6 +108,7 @@
             this.LinkPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.LinkPanel.BackColor = System.Drawing.Color.White;
+            this.LinkPanel.Controls.Add(this.linkLabel1);
             this.LinkPanel.Controls.Add(this.Down1Label);
             this.LinkPanel.Controls.Add(this.Down2Label);
             this.LinkPanel.Controls.Add(this.LoveCodeplexPictureBox);
@@ -127,7 +129,7 @@
             // 
             this.Down1Label.AutoSize = true;
             this.Down1Label.ForeColor = System.Drawing.Color.Gray;
-            this.Down1Label.Location = new System.Drawing.Point(13, 251);
+            this.Down1Label.Location = new System.Drawing.Point(13, 281);
             this.Down1Label.Name = "Down1Label";
             this.Down1Label.Size = new System.Drawing.Size(89, 13);
             this.Down1Label.TabIndex = 35;
@@ -137,7 +139,7 @@
             // 
             this.Down2Label.AutoSize = true;
             this.Down2Label.ForeColor = System.Drawing.Color.Gray;
-            this.Down2Label.Location = new System.Drawing.Point(13, 270);
+            this.Down2Label.Location = new System.Drawing.Point(13, 300);
             this.Down2Label.Name = "Down2Label";
             this.Down2Label.Size = new System.Drawing.Size(114, 13);
             this.Down2Label.TabIndex = 34;
@@ -146,7 +148,7 @@
             // LoveCodeplexPictureBox
             // 
             this.LoveCodeplexPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("LoveCodeplexPictureBox.Image")));
-            this.LoveCodeplexPictureBox.Location = new System.Drawing.Point(126, 228);
+            this.LoveCodeplexPictureBox.Location = new System.Drawing.Point(126, 258);
             this.LoveCodeplexPictureBox.Name = "LoveCodeplexPictureBox";
             this.LoveCodeplexPictureBox.Size = new System.Drawing.Size(19, 15);
             this.LoveCodeplexPictureBox.TabIndex = 33;
@@ -155,7 +157,7 @@
             // linkLabelCodeplex
             // 
             this.linkLabelCodeplex.AutoSize = true;
-            this.linkLabelCodeplex.Location = new System.Drawing.Point(10, 230);
+            this.linkLabelCodeplex.Location = new System.Drawing.Point(10, 260);
             this.linkLabelCodeplex.Name = "linkLabelCodeplex";
             this.linkLabelCodeplex.Size = new System.Drawing.Size(114, 13);
             this.linkLabelCodeplex.TabIndex = 32;
@@ -168,7 +170,7 @@
             // linkLabelExampleOverview
             // 
             this.linkLabelExampleOverview.AutoSize = true;
-            this.linkLabelExampleOverview.Location = new System.Drawing.Point(10, 160);
+            this.linkLabelExampleOverview.Location = new System.Drawing.Point(10, 190);
             this.linkLabelExampleOverview.Name = "linkLabelExampleOverview";
             this.linkLabelExampleOverview.Size = new System.Drawing.Size(133, 13);
             this.linkLabelExampleOverview.TabIndex = 31;
@@ -181,7 +183,7 @@
             // linkLabelDiscussions
             // 
             this.linkLabelDiscussions.AutoSize = true;
-            this.linkLabelDiscussions.Location = new System.Drawing.Point(10, 100);
+            this.linkLabelDiscussions.Location = new System.Drawing.Point(10, 130);
             this.linkLabelDiscussions.Name = "linkLabelDiscussions";
             this.linkLabelDiscussions.Size = new System.Drawing.Size(89, 13);
             this.linkLabelDiscussions.TabIndex = 26;
@@ -194,7 +196,7 @@
             // linkLabelGithub
             // 
             this.linkLabelGithub.AutoSize = true;
-            this.linkLabelGithub.Location = new System.Drawing.Point(10, 70);
+            this.linkLabelGithub.Location = new System.Drawing.Point(10, 100);
             this.linkLabelGithub.Name = "linkLabelGithub";
             this.linkLabelGithub.Size = new System.Drawing.Size(101, 13);
             this.linkLabelGithub.TabIndex = 24;
@@ -217,7 +219,7 @@
             // linkLabelTutorialOverview
             // 
             this.linkLabelTutorialOverview.AutoSize = true;
-            this.linkLabelTutorialOverview.Location = new System.Drawing.Point(10, 130);
+            this.linkLabelTutorialOverview.Location = new System.Drawing.Point(10, 160);
             this.linkLabelTutorialOverview.Name = "linkLabelTutorialOverview";
             this.linkLabelTutorialOverview.Size = new System.Drawing.Size(128, 13);
             this.linkLabelTutorialOverview.TabIndex = 19;
@@ -240,7 +242,7 @@
             // linkLabelDocumentation
             // 
             this.linkLabelDocumentation.AutoSize = true;
-            this.linkLabelDocumentation.Location = new System.Drawing.Point(10, 190);
+            this.linkLabelDocumentation.Location = new System.Drawing.Point(10, 220);
             this.linkLabelDocumentation.Name = "linkLabelDocumentation";
             this.linkLabelDocumentation.Size = new System.Drawing.Size(79, 13);
             this.linkLabelDocumentation.TabIndex = 15;
@@ -308,6 +310,19 @@
             this.DescriptionColumn.HeaderText = "Description";
             this.DescriptionColumn.Name = "DescriptionColumn";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(10, 70);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(95, 13);
+            this.linkLabel1.TabIndex = 36;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Tag = "https://osdn.net/projects/netoffice";
+            this.linkLabel1.Text = "NetOffice on Osdn";
+            this.FormToolTip.SetToolTip(this.linkLabel1, "https://osdn.net/projects/netoffice");
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.TopicLabel_LinkClicked);
+            // 
             // ExampleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -357,6 +372,7 @@
         private System.Windows.Forms.Label Down2Label;
         private System.Windows.Forms.PictureBox LoveCodeplexPictureBox;
         private System.Windows.Forms.LinkLabel linkLabelCodeplex;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
